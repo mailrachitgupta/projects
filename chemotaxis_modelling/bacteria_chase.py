@@ -15,7 +15,7 @@ from scipy.stats import poisson
 # Constants taken in the code
 D=0.5 # Diffusion Constant
 
-
+"""Generating Field for the movement of Bacteria and Neutrophile"""
 class Field():
     def __init__(self,x,y):
         self.length=x
